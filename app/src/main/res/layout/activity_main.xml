@@ -10,9 +10,16 @@
         android:id="@+id/myButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/click_me"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/hello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
